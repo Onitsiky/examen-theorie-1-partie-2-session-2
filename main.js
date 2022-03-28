@@ -2,7 +2,6 @@ import {slice} from "./slice";
 import {merge} from "./merge";
 import {generateUnorderedArray} from "./generate-unordered-array";
 
-
 function sort(array) {
     if (array.length <= 1) {
         return array;
