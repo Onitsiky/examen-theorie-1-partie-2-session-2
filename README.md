@@ -8,6 +8,6 @@ effectuées par l'algorithme, en supposant que chaque opération élémentaire n
 Ainsi, la quantité de temps nécessaire et le nombre d’opérations élémentaires effectuées par l'algorithme sont
 supposés différer d'au plus un facteur constant.
 
-##### 1. Annoter sur chaque ligne le nombre d'opération élémentaire nécessaire effectué par l'algorithme.
+##### 1. Annoter sur chaque ligne le nombre d'opérations élémentaires nécessaire effectué par chacun des algorithmes.
 
 ##### 2. À partir de la question précédente, définir la complexité temporelle de chaque algorithme.
