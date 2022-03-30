@@ -1,6 +1,6 @@
-import { arrayContain } from './3-array-contain';
+const { arrayContain } = require('./3-array-contain');
 
-export function generateUnorderedArray(size) {
+function generateUnorderedArray(size) {
   let array = [];
   for (let i = 0; i < size; i++) {
     let number = Math.floor(Math.random() * 100);
@@ -11,3 +11,5 @@ export function generateUnorderedArray(size) {
   }
   return array;
 }
+
+module.exports = { generateUnorderedArray };

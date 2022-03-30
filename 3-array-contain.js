@@ -1,4 +1,4 @@
-export function arrayContain(array, number) {
+function arrayContain(array, number) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] === number) {
       return true;
@@ -6,3 +6,5 @@ export function arrayContain(array, number) {
   }
   return false;
 }
+
+module.exports = { arrayContain };

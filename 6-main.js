@@ -1,6 +1,6 @@
-import { slice } from './1-slice';
-import { merge } from './2-merge';
-import { generateUnorderedArray } from './4-generate-unordered-array';
+const { slice } = require('./1-slice');
+const { merge }= require('./2-merge');
+const { generateUnorderedArray } = require('./4-generate-unordered-array');
 
 function sort(array) {
   if (array.length <= 1) {

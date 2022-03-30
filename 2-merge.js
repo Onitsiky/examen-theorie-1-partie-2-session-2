@@ -1,4 +1,4 @@
-export function merge(array1, array2) {
+function merge(array1, array2) {
   let mergedArray = [];
   let i = 0;
   let j = 0;
@@ -21,3 +21,5 @@ export function merge(array1, array2) {
   }
   return mergedArray;
 }
+
+module.exports = { merge };
